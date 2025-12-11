@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Alfajor Clicker</title>
+		<link rel="icon" href="pxArt.png" type="image"/> 
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="main.js" defer></script>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div class="header">
+			<header>
+				ALFAJOR CLICKER
+			</header>
+			<div class="icono">
+				<img src="pxArt.png" style="height: 100%"/>
+			</div>
+			
+		</div>
+		<div class="page">
+			<div class="clickersection">
+				<div class="giantalfajor">
+					<p>CLICK ME!</p>
+					<button class="clicker" onclick="alfajorClick(1)"><img src="giantalfajor.png" id="alfajorimg"></button>
+
+					<p>alfajores:</p>
+					<p id="alfajorcount">0</p>
+			
+				</div>
+				
+			</div>
+			<div class="buildings">
+
+
+				<img src="message.png" id="message">
+			</div>
+			<div class="shop">
+				<div class="front-layout">
+					<h1>EL SUPER</h1>
+					<img class="shop-img" src="super.png">
+
+				</div>
+				 <div class="shop-content">
+				 	<div class="buy-cursor">
+				 		<img id="clicker-hand" src="cursor.png">
+				 		<p>
+				 			CURSOR
+				 		</p>
+				 		<p id="CursorOriginal-price">
+				 			10
+				 		</p>
+				 		<p id="CursorOriginal-count" >
+				 			0
+				 		</p>
+				 		<button onclick="cursororiginal.buy()">
+				 			comprar
+				 		</button>
+					</div>
+				 	<div class="buy-cursor">
+				 		<p>
+				 			ABUELA
+				 		</p>
+				 		<p id="Abuela-price">
+				 			100
+				 		</p>
+				 		<p id="Abuela-count">
+				 			0
+				 		</p>
+				 		<button onclick="abuela.buy()">
+				 			comprar
+				 		</button>
+				 	</div>
+				 	<div class="buy-cursor">
+				 		<p>
+				 			GRANJA
+				 		</p>
+				 		<p id="Huerta-price">
+				 			1100
+				 		</p>
+				 		<p id="Huerta-count">
+				 			0
+				 		</p>
+				 		<button onclick="Huerta  .buy()">
+				 			comprar
+				 		</button>
+				 	</div>
+				 	<div class="buy-cursor">
+				 		hola
+				 	</div>
+				 	<div class="buy-cursor">
+				 		hola
+				 	</div>
+				 	
+				        <!-- Add more content here to test scrolling -->
+
+				</div>
+			</div>
+			<div class="footend">
+				<p>
+					Copyright Alfajor Clicker 2025
+				</p>
+			</div>
+		</div>
+		
+
+	</body>
+</html>

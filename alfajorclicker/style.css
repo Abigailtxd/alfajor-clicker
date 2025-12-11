@@ -1,0 +1,204 @@
+@font-face{
+  font-family: "pixel";
+  src: url(fonts/pixel.ttf);
+}
+
+@font-face{
+  font-family: "pixelify sans";
+  src: url(fonts/PixelifySans.ttf);
+}
+
+.page{
+  height: 100vh;
+  display:flex;
+  flex-direction: row;
+  gap: 0;
+}
+
+body{
+  overflow-x:hidden ;
+}
+
+.header {
+  font-size: 4vh;
+  font-family: "pixel";
+  color: #FDEFDA;
+  height: 11vh; 
+  width: 100vw; 
+  background-color: #5F78D3;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  /*centrar contenido dentro del header*/
+}
+
+.titulo {
+  text-align: center; 
+  margin: 0; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  /*centrar el texto en sí*/
+  
+}
+.icono{
+  position: absolute;
+  right: 5%;
+  height: 12%;
+}
+
+.clickersection{
+  background-color:#9593D9;
+  height: 89vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+.buildings{
+  position: absolute;
+  top: 11vh;
+  left: 30vw;
+  height: 89vh;
+  width: 40vw;
+  background-image: url(sunset.png) ;
+  background-size: cover;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.clicker{
+  background-color: transparent;
+  border: 0;
+  margin: auto;
+  width: auto;
+}
+
+
+.shop{
+  background-color: #9593D9;
+  position: absolute;
+  top: 11vh;
+  left: 70vw;
+  height: 89vh;
+  width: 30vw;
+  overflow-y: auto;
+  overflow-x: hidden ;
+ }
+
+
+.shop-content {
+  position: relative;
+  top: -525px ;
+  height: 200vh;
+   display: flex;
+  flex-direction:column;
+  align-items: center;
+ 
+}
+
+.front-layout h1{
+  margin: 30px ;
+  font-family: pixel ;
+  color: black;
+  font-size:5vh;
+  z-index:10 ;
+}
+
+.front-layout{
+  width: 100%; 
+  height: 100% ;
+  position: sticky ;
+  top: 0;
+  z-index: 10; 
+  align-items: center ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shop-img{
+  bottom: 0;
+  width: 70%;
+  heigth: 70%;
+
+}
+
+.buy-cursor{
+  width: 300px;
+  height:80px;
+  background-color:  #FDEFDA;
+  margin-bottom: 10px ;
+  border-style: solid ;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 10;
+}
+
+#clicker-hand{
+  width:15%;
+  height: 70%;
+  margin-left: 5px ;
+}
+
+.footend{
+  background-color: #5F78D3;
+  height:11vh;
+  width: 100vw;
+  position: absolute;
+  top:100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.giantalfajor{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+
+}
+
+.giantalfajor p{
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+
+}
+
+.clicker:focus{
+  border:0;
+}
+
+
+#message{
+  position: relative;
+  top: 1vh;
+  width: 70%;
+}
+
+p{
+  font-family: "pixelify sans";
+}
+
+
+body{
+  margin: 0;
+  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
